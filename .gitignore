@@ -1,0 +1,33 @@
+﻿# Secrets - never commit
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Gradio
+.gradio/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.png
